@@ -1,4 +1,6 @@
 MyStrm::Application.routes.draw do
+  resources :ecgs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
